@@ -1,0 +1,1514 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif !important;
+}
+a {
+  text-decoration: none;
+}
+
+/*------------------ header------------------  */
+.nav-link1
+{
+  color: white !important;
+}
+.navbar-toggler:focus {
+ 
+  box-shadow: 0 0 0 0 ;
+}
+.name {
+  position: relative;
+  z-index: 999;
+  width: 87px;
+  height: 30px;
+  color: #0b132a;
+  font-size: 20px;
+  font-weight: 700;
+}
+.menu {
+  position: relative;
+  z-index: 999;
+  color: #0e0d0d;
+}
+.navbar-nav1 {
+  position: relative;
+  z-index: 999;
+}
+
+.signup_btn {
+  border-width: 3px;
+  border-radius: 1.25rem;
+  border: 1px solid rgb(252, 252, 252);
+  color: #f9f9f9;
+  z-index: 999;
+  margin-left: 20px;
+}
+.sign_in {
+  color: white;
+}
+
+/* user-icon-btn */
+.usr_btn {
+  z-index: 999;
+  right: 54px;
+  height: 43px;
+  width: fit-content;
+}
+
+/* ---------------banner Section---------------- */
+
+.bg-image1 {
+  background: url("/asstes/Images/HugeGlobal.png") no-repeat;
+}
+.image_2 {
+  background: url("/asstes/Images/dot_img.png") no-repeat;
+  padding-bottom: 106px;
+}
+.car_image {
+  background: url("/asstes/Images/Car-Image.png") no-repeat;
+  background-size: contain;
+  height: 937px;
+  background-position: top right;
+}
+.opacity-25 {
+  opacity: 0.25;
+}
+
+/* -----------------Evaluate Section--------------- */
+
+.btn-s {
+  background-color: #ffffff;
+  color: black;
+}
+.btn1 {
+  padding: 0.375rem 8.75rem;
+  border-radius: -2.75rem;
+  margin-top: 12px;
+  height: 46px;
+  width: 572px;
+}
+.btn1-secondary:hover {
+  color: #0e0d0d;
+  background-color: #ffffff;
+  border-color: #565e64;
+}
+.btn1-secondary:focus {
+  color: #0c0909;
+  background-color: #ffffff;
+  border-color: #565e64;
+}
+.Evaluate_btn {
+  height: 46px;
+  border-color: #127681;
+  background-color: #127681;
+  margin-bottom: 17px;
+  margin-top: 18px;
+  width: 63%;
+  color: white;
+  font-weight: 700;
+}
+.evaluate_sec {
+  position: relative;
+  top: 180px;
+  left: 62px;
+}
+.heading {
+  font-size: 40px;
+  line-height: 28px;
+}
+.heading2 {
+  font-weight: 700;
+}
+.evaluate_drop {
+  border-color: #afb0b9;
+  text-align: start;
+  font-size: 15px;
+  width: 578px;
+  color: #4a4c53;
+}
+.make_text {
+  position: relative;
+  float: left;
+  font-size: 15px;
+  top: 8px;
+  left: -118px;
+  color: #606266;
+}
+.menu_show {
+  width: 576px;
+}
+.dropdown-toggle::after {
+  position: relative;
+  right: -109px;
+  top: 10px;
+  float: right;
+  color: #4a4c53;
+}
+/* ----------------section2--------------- */
+.fill_form {
+  padding-left: 97px;
+}
+.fill_form2 {
+  padding-left: 77px;
+}
+.fill_form3 {
+  padding-right: 57px;
+}
+.right-arrow {
+  position: relative;
+  top: -221px;
+  left: 297px;
+}
+.right-arrow2 {
+  position: relative;
+  top: -221px;
+  left: 328px;
+}
+
+.text1 {
+  color: #10375c;
+}
+.text2 {
+  color: #127681;
+}
+.circle1 {
+  margin-top: 41px;
+  height: 63px;
+  width: 65px;
+  border-radius: 2px;
+  border-color: black;
+}
+.image1 {
+  position: absolute;
+  top: 780px;
+}
+
+.icon1 {
+  color: #f9f9f9;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.color1 {
+  text-align: center;
+  background-color: #127681;
+}
+.color2 {
+  text-align: center;
+  background-color: #4a4c53;
+}
+.column1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 28px;
+  padding-top: 38px;
+  color: #000000;
+  line-height: 28px;
+}
+.text3 {
+  font-size: 18px;
+  color: #00000099;
+}
+.arrow1 {
+  text-align: center;
+}
+.sec_3_head {
+  text-align: center;
+}
+.bg-image3 {
+  position: absolute;
+  background: url("/asstes/Images/Group\ 1217.png") no-repeat;
+  height: 300px;
+  background-size: cover;
+  top: 200px;
+}
+.section3 {
+  position: relative;
+}
+
+.why_us_text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #5b5f66;
+  padding-left: 64px;
+}
+.sec_3_part {
+  padding-top: 39px;
+}
+.bullet1 {
+  display: flex;
+  font-size: 15px;
+  color: #1d2126;
+  font-weight: 500;
+}
+.bullet-img {
+  height: fit-content;
+  width: fit-content;
+  margin-right: 24px;
+}
+
+/* Section-4 What our customers are saying ---------------------------------*/
+.rec {
+  background-image: linear-gradient(#00384b, #127681);
+  border-radius: 2.25rem !important;
+  padding-bottom: 50px;
+}
+.sec_4_head_1 {
+  color: white;
+  padding-top: 64px;
+}
+.customer-pic {
+  width: 24%;
+  margin-left: 190px;
+  margin-top: 40px;
+}
+.customer_name {
+  font-size: 22px;
+  line-height: 48px;
+  margin-left: 385px;
+  margin-top: -99px;
+  font-weight: 400;
+}
+.line {
+  height: 2px;
+  background-color: white;
+  width: 66px;
+  margin-left: 606px;
+  margin-top: 22px;
+}
+.customer_des {
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 48px;
+  margin-left: 385px;
+  margin-top: -24px;
+}
+.desciption_2 {
+  font-size: 19px;
+  font-weight: 100;
+  margin-top: 76px;
+  margin-right: 97px;
+}
+.section4 {
+  padding-top: 60px;
+}
+.corner1 {
+  position: relative;
+}
+.corner2 {
+  position: relative;
+}
+/* ---------------------Frequently asked questions section----------------- */
+.sec_5_head {
+  text-align: center;
+  padding-top: 29px;
+}
+.desktop_freq_car {
+  height: 604px;
+  background-size: contain;
+}
+.accordion1 {
+  font-size: 15px;
+  color: #00384b;
+  line-height: 18px;
+  font-weight: 500;
+}
+.content {
+  color: #313131;
+  font-size: 16px;
+  line-height: 147.9%;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+#accordion .panel {
+  border: 1px solid #127681;
+  box-shadow: none;
+  margin-bottom: 26px;
+  position: relative;
+  padding-bottom: 14px;
+  padding-top: 10px;
+}
+#accordion .panel-heading {
+  padding: 0;
+  position: relative;
+}
+.panel-group {
+  padding-top: 109px;
+  padding-left: 93px;
+}
+/* #accordion .panel-heading:before {
+  content: "";
+  width: 40px;
+  height: 100%;
+  background: #ffffff00;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+} */
+#accordion .panel-title a {
+  display: block;
+  padding: 10px 30px 10px 60px;
+  background: white;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #000;
+  overflow: hidden;
+  position: relative;
+
+  box-shadow: 0px 20px 95px rgba(201, 203, 204, 0.3);
+  border-radius: 10px;
+}
+#accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before {
+  content: "";
+  transform: translateY(50px);
+}
+#accordion .panel-title a:after,
+#accordion .panel-title a.collapsed:after {
+  content: "-";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 15px;
+  color: #00384b;
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  z-index: 2;
+  transition: all 0.3s ease 0s;
+}
+#accordion .panel-title a:after,
+#accordion .panel-title a.collapsed:after {
+  content: "\2b";
+  transform: translateY(100px);
+
+}
+/* }
+#accordion .panel-title a.collapsed:before {
+  transform: translateY(-50px);
+} */
+#accordion .panel-title a.collapsed:after {
+  transform: translateY(0);
+}
+#accordion .panel-body {
+  padding: 10px 30px 10px 60px;
+  background: #ffffff00;
+  border-top: none;
+  font-size: 15px;
+  color: #6f6f6f;
+  letter-spacing: 1px;
+  line-height: 28px;
+  position: relative;
+}
+#accordion .panel-body:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box2 {
+  position: relative;
+  top: 332px;
+  padding-left: 325px;
+}
+.box3 {
+  position: relative;
+  top: 580px;
+  padding-left: 171px;
+  padding-right: 156px;
+}
+.background-pic {
+  background: url("/asstes/Images/Background2.png") no-repeat;
+  background-size: contain;
+  height: 1198px;
+}
+.background-pic1 {
+  background: url("/asstes/Images/mobile-get-max-prices.png") no-repeat;
+  background-size: contain;
+  height: 792px;
+}
+.head_1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 52px;
+}
+.para_1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.para_1_mob{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  
+}
+.head_1_mob{
+  text-align: center;
+  font-weight: 700;
+font-size: 20px;
+line-height: 52px;
+color: white;
+}
+.mob_box2{
+  padding-top: 136px;
+}
+.mob_box3{
+  padding-top: 99px;
+}
+
+/* Sponsor Section------------------------ */
+.sponsor_img {
+  background: url("/asstes/Images/Sponsor-img.png") no-repeat;
+  background-size: contain;
+  height: 266px;
+}
+.sponsor_img_mob {
+  background: url("/asstes/Images/mobile-sponsor.png") no-repeat;
+  background-size: cover;
+}
+
+.footer_img {
+  background: url("/asstes/Images/footer-img.png") no-repeat;
+  background-size: cover;
+  height: 386px;
+}
+.footer_head {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 61px;
+  color: white;
+  padding-top: 152px;
+  text-align: center;
+}
+.get_in_touch {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 46px;
+  color: white;
+}
+.icon {
+  padding-left: 14px;
+  padding-bottom: 6px;
+}
+.number {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  padding-left: 3px;
+  color: white;
+}
+.copyright {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: white;
+  padding-top: 43px;
+  padding-left: 21px;
+}
+.desktop_fre_car {
+  background: url("/asstes/Images/laptop-car.png") no-repeat;
+  background-size: contain;
+}
+
+.footer_img_mob {
+  background: url("/asstes/Images/mobile-footer.png") no-repeat;
+  background-size: contain;
+  height: 628px;
+}
+.footer_head1 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: white;
+}.footer_box{
+  padding-top: 200px;
+}
+/* Subscribe Section------------------------- */
+.subscribe_img {
+  background: url("/asstes/Images/desktop-subscribe.png") no-repeat;
+  background-size: contain;
+  height: 500px;
+}
+.sub_heading {
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 54px;
+  text-align: center;
+  color: #5e6282;
+  padding-top: 202px;
+  padding-left: 155px;
+  padding-right: 145px;
+}
+.Email-input {
+  width: 21%;
+  height: 58px;
+}
+.btn-subscribe {
+  background-color: #127681;
+  width: 14%;
+  height: 58px;
+  margin-left: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+}
+.rounded1 {
+  border-radius: 0.75rem !important;
+}
+.envelope {
+  position: relative;
+  left: -447px;
+}
+.btn:hover {
+  color: white;
+}
+.sub-sec {
+  margin-top: 41px;
+}
+
+/* 
+{
+  background: red;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  color: white;
+  padding: 20px 30px;
+  height: 100%;
+} */
+/*--------------------- responsive mobile Queries-------------------------- */
+
+@media only screen and (max-width: 1440px) {
+  .desktop_fre_car {
+    height: 610px;
+  }
+  .navbar-nav1 {
+    margin-right: -135px;
+  }
+  .right-arrow2 {
+    left: 297px;
+  }
+  .Evaluate_btn {
+    width: 62%;
+  }
+  .customer-pic {
+    margin-left: 138px;
+  }
+  .customer_name {
+    margin-left: 333px;
+  }
+  .customer_des {
+    margin-left: 333px;
+  }
+  .line {
+    margin-left: 551px;
+  }
+  .corner2 {
+    left: 1153px;
+    top: 68px;
+  }
+  .corner1 {
+    top: 141px;
+    left: -27px;
+  }
+  .text_pos {
+    justify-content: center !important;
+  }
+  .panel-group {
+    padding-top: 43px;
+  }
+}
+@media only screen and (max-width: 1358px) {
+  .Evaluate_btn {
+    width: 73%;
+  }
+  .line {
+    margin-left: 436px;
+  }
+  .customer-pic {
+    margin-left: 84px;
+  }
+  .customer_name {
+    margin-left: 238px;
+  }
+  .customer_des {
+    margin-left: 238px;
+  }
+
+  .desciption_2 {
+    margin-top: 55px;
+    margin-right: 54px;
+  }
+  .box2 {
+    top: 219px;
+  }
+  .box3 {
+    top: 395px;
+  }
+  .envelope {
+    left: -390px;
+  }
+  .panel-group {
+    padding-top: 90px;
+    padding-left: 18px;
+  }
+  .footer_img {
+    height: 323px;
+  }
+  .footer_head {
+    padding-top: 142px;
+    line-height: 26px;
+  }
+  .copyright {
+    padding-top: 45px;
+    padding-left: 96px;
+    line-height: 1px;
+  }
+  .footer-sec-1 {
+    padding-left: 69px;
+  }
+}
+
+@media only screen and (max-width: 1358px) {
+  .car-image-2 {
+    width: 597px;
+    height: 712px;
+  }
+  .corner2 {
+    left: 1000px;
+  }
+  .right-arrow {
+    top: -246px;
+    left: 265px;
+  }
+  .right-arrow2 {
+    left: 244px;
+    top: -246px;
+  }
+}
+@media only screen and (max-width: 1358px) {
+  .right-arrow2 {
+    left: 216px;
+    top: -269px;
+  }
+  .right-arrow {
+    left: 220px;
+  }
+}
+
+@media only screen and (max-width: 643px) {
+  .car-image-2 {
+    width: 533px;
+    height: 572px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .car-image-2 {
+    width: 432px;
+    height: 458px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .background-pic {
+    height: 888px;
+  }
+  .desktop_fre_car {
+    margin-top: 104px;
+    height: 508px;
+  }
+  .box2 {
+    top: 154px;
+    padding-left: 226px;
+  }
+  .box3 {
+    top: 282px;
+    padding-left: 39px;
+    padding-right: 117px;
+  }
+  .navbar-nav1 {
+    margin-right: 86px;
+  }
+  .Evaluate_btn {
+    width: 88%;
+  }
+  .right-arrow {
+    width: 194px;
+    top: -322px;
+    left: 188px;
+  }
+  .right-arrow2 {
+    top: -322px;
+    left: 173px;
+    width: 194px;
+  }
+  .line {
+    margin-left: 336px;
+  }
+  .customer-pic {
+    width: 29%;
+    margin-left: 14px;
+    margin-top: 63px;
+  }
+  .customer_des {
+    margin-left: 165px;
+  }
+  .customer_name {
+    margin-left: 165px;
+  }
+  .desciption_2 {
+    margin-left: -25px;
+    margin-right: 12px;
+  }
+  .corner2 {
+    top: 67px;
+    left: 823px;
+  }
+  .corner1 {
+    top: 159px;
+    left: -23px;
+  }
+  .text_pos {
+    justify-content: center !important;
+  }
+  .freq_car {
+    text-align: center;
+    padding-top: 90px;
+  }
+  .panel-group {
+    padding-top: 90px;
+    padding-left: 18px;
+  }
+  .footer_img {
+    height: 274px;
+  }
+  .footer_head {
+    padding-top: 90px;
+    line-height: 26px;
+  }
+  .copyright {
+    padding-top: 45px;
+    padding-left: 134px;
+  }
+  .footer-sec-1 {
+    padding-left: 69px;
+  }
+  .sponsor_img {
+    height: 170px;
+  }
+  .sub_heading {
+    padding-top: 140px;
+    padding-left: 138px;
+    padding-right: 102px;
+  }
+  .envelope {
+    left: -324px;
+  }
+}
+
+@media only screen and (max-width: 1018px) {
+  .navbar-nav1 {
+    margin-right: 86px;
+  }
+
+  .right-arrow {
+    display: none;
+  }
+  .right-arrow2 {
+    display: none;
+  }
+  .desktop_fre_car {
+    display: none;
+  }
+  .sponsors {
+    display: none;
+  }
+  .page_footer {
+    display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .usr_btn {
+    position: absolute;
+    margin-right: 25px;
+  }
+  .new_btn {
+    margin-right: 6px;
+    padding-top: 7px;
+  }
+  .arrow {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .arrow {
+    display: contents;
+  }
+  .sec6_mob{
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .arrow_class {
+    display: none;
+  }
+  
+  .mobile_swipe {
+    display: none;
+  }
+  .arrow {
+    visibility: hidden;
+  }
+  .sec_5_head {
+    display: none;
+  }
+  .freq_car {
+    display: none;
+  }
+  .sponsor_mob {
+    display: none;
+  }
+  .page_footer_mob {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .new_btn {
+    margin-right: 9px;
+  }
+  .arrow {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .desktop_freq_car {
+    display: none;
+  }
+  .sec_mob{
+    display: none;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .evaluate_sec {
+    float: right;
+    padding-top: 39px;
+    padding: 33px;
+  }
+  .arrow {
+    display: none;
+  }
+  .new_btn {
+    margin-right: 9px;
+  }
+  .btn1 {
+    width: 100%;
+  }
+  .Evaluate_btn {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .signup_btn{
+    border: 1px solid #127681;
+    color: #127681;
+    margin-left: 10px;
+  }
+  .nav-link1{
+    left: 24px;
+    position: relative;
+    color: #127681 !important;
+  }
+  .cross {
+    position: relative;
+    float: right;
+    top: 12px;
+    right: 21px;
+}
+.navbar_custom2{
+  position: absolute;
+    background: white;
+    color: black;
+    right: 0px;
+    width: 19%;
+    padding: 30px;
+}
+  .nav_custom{
+    border: none !important;
+
+  }
+  .navbar-light .navbar-toggler {
+    border: none  !important;
+  }
+  .navbar_custom{
+    position: fixed;
+    left: 0px;
+    background:white;
+    top:-4px;
+    height: 100%;
+    z-index: 999;
+    width: 50%;
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #222222;
+  }
+  .box_header{
+    position: relative;
+      top: 0px;
+      background:#127681;
+      height: 9%;
+  }
+  .section6{
+    display: none;
+  }
+  .sponsor_img_mob {
+    height: 58px;
+    margin-top: 31px;
+  }
+  .sponsor_img {
+    height: 139px;
+  }
+  .background-pic {
+    height: 696px;
+  }
+  .sub_heading {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .panel-group {
+    padding-top: 47px;
+    padding-left: 85px;
+    padding-right: 87px;
+  }
+  .Email-input {
+    width: 62%;
+    margin-left: 84px;
+    height: 48px;
+  }
+  .btn-subscribe {
+    width: 17%;
+    height: 48px;
+    margin-left: 8px;
+    border-radius: 0px 10px 10px 0px !important;
+    position: relative;
+    left: -38px;
+  }
+  .subscribe_img {
+    height: 288px;
+  }
+  .envelope {
+    left: -514px;
+  }
+  .sub-sec {
+    margin-top: 19px;
+  }
+  .box2 {
+    top: 138px;
+    padding-left: 125px;
+    padding-right: 61px;
+  }
+  .box3 {
+    top: 225px;
+    padding-left: 177px;
+    padding-right: 158px;
+  }
+  .part_2 {
+    padding-left: 35px;
+  }
+  .head_1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .section_6_part1 {
+    padding-left: 149px;
+  }
+  .para_1 {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .desktop_freq_car {
+    display: none;
+  }
+  .freq_car {
+    float: end;
+  }
+  .sec_5_head {
+    text-align: center;
+    padding-top: 29px;
+  }
+  .desciption_2 {
+    padding-left: 411px;
+  }
+  .Evaluate_btn {
+    width: 88%;
+  }
+  .corner2 {
+    left: 629px;
+    width: 12%;
+  }
+  .text_pos {
+    padding-right: 93px;
+    font-size: 18px;
+  }
+
+  .fill_form {
+    padding-left: 0px;
+  }
+  .fill_form2 {
+    padding-left: 0px;
+  }
+  .fill_form3 {
+    padding-right: 0px;
+  }
+  .evaluate_drop {
+    width: 428px;
+  }
+  .line {
+    margin-left: 195px;
+  }
+  .customer-pic {
+    width: 21%;
+    margin-left: 164px;
+
+    margin-top: 24px;
+  }
+  .customer_name {
+    font-size: 15px;
+    margin-left: 165px;
+    margin-top: 9px;
+  }
+  .customer_des {
+    font-size: 12px;
+    margin-left: 186px;
+    margin-top: -32px;
+  }
+  .desciption_2 {
+    font-size: 12px;
+    margin-top: -8px;
+    padding-left: 32px;
+  }
+  .corner1 {
+    width: 9%;
+    margin-right: 56px;
+  }
+  .menu_show {
+    width: 430px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .evaluate_sec {
+    left: 31px;
+    width: fit-content;
+    background-color: #ffffffd9;
+    border-color: black;
+    padding-top: 39px;
+    padding: 33px;
+  }
+  .new_btn {
+    margin-right: 9px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .evaluate_sec {
+    left: 1px;
+    width: fit-content;
+    background-color: #ffffffd9;
+    border-color: black;
+    padding-top: 39px;
+    padding: 32px;
+    top: 116px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .heading2 {
+    font-size: 25px;
+  }
+  .menu_show {
+    width: 310px;
+  }
+
+  .btn1 {
+    width: 100%;
+  }
+  .Evaluate_btn {
+    width: 100%;
+  }
+  .car_image {
+    height: 651px;
+  }
+}
+@media only screen and (max-width: 425px) {
+.navbar_custom{
+ 
+    width: 72%;
+}
+.navbar_custom2{
+  width: 30%;
+} 
+.nav-link1{
+  left: 14px;
+}
+.signup_btn{
+  margin-left: 0px;
+}
+.subscribee{
+    margin-top: -72px;
+}
+  .sub_heading{
+    padding-top: 46px;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  .Email-input {
+    width: 59%;
+    margin-left: 66px;
+    height: 38px;
+}
+.subscribe_img {
+  height: 181px;
+}
+.envelope {
+  left: -293px;
+}
+  .btn-subscribe{
+    font-size: 12px;
+    height: 37px;
+    left : -19px;
+    width: 25%;
+  }
+  .sec_5_head{
+    padding-top: 0px;
+  }
+  .panel-group {
+    padding-top: 59px;
+    padding-left: 0px;
+    padding-right: 8px;
+  }
+  .section4 {
+    padding-top: 0px;
+  }
+  .column1 {
+    color: white;
+    font-size: 20px;
+  }
+  .color1 {
+    background-color: #00384b;
+  }
+  .color2 {
+    background-color: #127681;
+  }
+  .border {
+    border: 2px solid #dee2e6 !important;
+  }
+  .circle1 {
+    height: 69px;
+    width: 74px;
+  }.freq_car{
+    padding-top: 27px;
+  }
+
+  .arrow {
+    width: 5px;
+  }
+  .evaluate_sec {
+    left: 2px;
+    top: 98px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .heading2 {
+    font-size: 25px;
+  }
+  .menu_show {
+    width: 339px;
+  }
+  .rounded {
+    border-radius: 1.25rem !important;
+  }
+  .btn1 {
+    width: 100%;
+  }
+  .Evaluate_btn {
+    width: 100%;
+  }
+  .car_image {
+    height: 651px;
+  }
+  .fill_form {
+    margin-top: 34px;
+    background-color: #00384b;
+    margin-left: 52px;
+    width: 342px;
+    padding-left: 0px;
+  }
+  .fill_form2 {
+    margin-left: 52px;
+    width: 342px;
+    margin-top: 10px;
+    background-color: #127681;
+    padding-left: 0px;
+  }
+
+  .fill_form3 {
+    margin-left: 52px;
+    width: 342px;
+    margin-top: 10px;
+    background-color: #00384b;
+    padding-left: 0px;
+  }
+  .bullet-img {
+    margin-right: 4px;
+    margin-top: 3px;
+  }
+  .car-image-2 {
+    width: 404px;
+    height: 441px;
+  }
+  .why_us_text {
+    font-size: 12px;
+    padding-left: 36px;
+    padding-right: 20px;
+  }
+  .bullet1 {
+    font-size: 12px;
+  }
+  .corner1 {
+    margin-right: 10px;
+  }
+  .mobile_swipe {
+    width: 92%;
+  }
+  .corner2 {
+    left: 351px;
+    width: 14%;
+    top: 49px;
+  }
+  .text1 {
+    font-size: 25px;
+  }
+  .text2 {
+    font-size: 25px;
+  }
+  .text3 {
+    color: white;
+    padding-top: 10px;
+  }
+  .image1 {
+    display: none;
+  }
+  .arrow {
+    width: 5%;
+  }
+  .box {
+    top: 322px;
+  }
+  .sec_4_head_1 {
+    padding-top: 27px;
+  }
+  .text_pos {
+    padding-right: 40px;
+  }
+  .line {
+    margin-left: 138px;
+    margin-top: 16px;
+  }
+  .customer-pic {
+    width: 22%;
+    margin-left: 132px;
+  }
+  .customer_name {
+    margin-left: 122px;
+    margin-top: 0px;
+  }
+  .customer_des {
+    margin-left: 139px;
+    margin-top: -35px;
+  }
+  .desciption_2 {
+    margin-top: -8px;
+    padding-left: 32px;
+  }
+  .sponsor_img_mob{
+    height: 29px;
+  }
+  .footer_img_mob{
+    height: 348px;
+  }
+  .footer_box {
+    padding-top: 144px;
+}
+}
+@media only screen and (max-width: 377px) {
+  .navbar_custom {
+    width: 68%;
+}
+  .nav-link1{
+    left: 1px;
+  }
+  .signup_btn{
+    margin-left: -13px;
+  }
+  .mob_box3 {
+    padding-top: 63px;
+}
+  .envelope {
+    left: -243px;
+}
+  .sub-sec {
+    margin-top: 4px;
+}
+  .btn-subscribe{
+    height: 37px;
+  }
+  .footer_img_mob {
+    height: 306px;
+}
+.footer_box {
+  padding-top: 99px;
+}
+  .subscribee {
+    margin-top: -175px;
+}
+  .corner2 {
+    left: 304px;
+    top: 26px;
+  }
+  .line {
+    margin-left: 114px;
+  }
+  .customer-pic {
+    margin-left: 110px;
+  }
+  .customer_name {
+    margin-left: 85px;
+  }
+  .customer_des {
+    margin-left: 109px;
+  }
+
+  .evaluate_sec {
+    left: 13px;
+    width: fit-content;
+    background-color: #ffffffd9;
+    border-color: black;
+    padding-top: 39px;
+    padding: 12px;
+
+    top: 127px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .heading2 {
+    font-size: 25px;
+  }.menu_show {
+    width: 337px;
+}
+
+  .btn1 {
+    width: 100%;
+  }
+  .Evaluate_btn {
+    width: 100%;
+  }
+  .car_image {
+    height: 591px;
+  }
+  .fill_form {
+    margin-left: 41px;
+    width: 312px;
+  }
+  .fill_form2 {
+    margin-left: 41px;
+    width: 312px;
+  }
+  .fill_form3 {
+    margin-left: 41px;
+    width: 312px;
+  }
+  .car-image-2 {
+    width: 303px;
+    height: 322px;
+  }
+  .why_us_text {
+    font-size: 12px;
+  }
+  .bullet1 {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .evaluate_sec {
+    left: 13px;
+    width: fit-content;
+    background-color: #ffffffd9;
+    border-color: black;
+    padding-top: 39px;
+    padding: 12px;
+
+    top: 127px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .heading2 {
+    font-size: 25px;
+  }
+  .menu_show {
+    width: 310px;
+  }
+
+  .btn1 {
+    width: 100%;
+  }
+  .Evaluate_btn {
+    width: 100%;
+  }
+  .car_image {
+    height: 591px;
+  }
+  .fill_form3 {
+    margin-left: 31px;
+    width: 278px;
+  }
+  .fill_form2 {
+    margin-left: 31px;
+    width: 278px;
+  }
+  .fill_form {
+    margin-left: 31px;
+    width: 278px;
+  }
+  .car-image-2 {
+    width: 303px;
+    height: 322px;
+  }
+  .why_us_text {
+    font-size: 12px;
+    padding-left: 31px;
+  }
+  .bullet1 {
+    font-size: 12px;
+  }
+}
